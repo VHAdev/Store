@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@500&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #FFE16B;
+}
+
+li, a, button {
+    font-family: 'Roboto Mono', monospace;
+    font-weight: 500;
+    font-size: 16px;
+    text-decoration: none;
+    color: #fff;
+    background-color: transparent;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10%;
+}
+
+.logo {
+    width: 150px;
+    height: 100%;
+    cursor: pointer;
+}
+
+.nav__links {
+    list-style: none;
+}
+
+.nav__links li {
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.nav__links li a {
+    transition: all 0.3s ease 0s;
+}
+
+.nav__links li a:hover {
+    color: #717D7E ;
+}
+
+button {
+    padding: 9px  25px;
+    color: #fff;
+    background-color: rgba(133,146, 158, 1);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+
+}
+
+button:hover {
+    background-color: rgba(133,146, 158, 0.8);
+}
+
+.linha {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.left-col{
+    float: left;
+    width: 50%;
+}
+
+.right-col{
+    float: right;
+    width: 50%;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    padding: 30px 10%;
+    margin-top: 50px;
+    font-family: 'Roboto Mono', monospace;
+    width: 50%;
+}
+
+.title {
+    font-size: 2.5em;
+}
+
