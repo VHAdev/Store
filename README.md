@@ -1,2 +1,3 @@
-# store-
-web store sem uso de bootstrap
+# Store
+
+Front-end web store
